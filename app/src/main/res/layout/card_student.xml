@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/student_card_custom" >
+
+    <TextView
+        android:id="@+id/textStudName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_toStartOf="@+id/btnBookmark"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+
+        android:text="Student sdfsdfsdfsdf1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnBookmark"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/ic_baseline_push_pin_24"
+        android:visibility="visible"
+        android:rotation="45"
+        android:outlineAmbientShadowColor="#000555"/>
+
+</RelativeLayout>

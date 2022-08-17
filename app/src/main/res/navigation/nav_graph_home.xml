@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/studentsListFragment">
+
+    <fragment
+        android:id="@+id/studentsListFragment"
+        android:name="com.example.studentsapp.ui.fragments.StudentsListFragment"
+        android:label="fragment_students_list"
+        tools:layout="@layout/fragment_students_list" >
+<!--        <action-->
+<!--            android:id="@+id/action_studentsListFragment_to_studentDetailsFragment"-->
+<!--            app:destination="@id/studentDetailsFragment" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/studentDetailsFragment"
+        android:name="com.example.studentsapp.ui.fragments.StudentDetailsFragment"
+        android:label="fragment_student_details"
+        tools:layout="@layout/fragment_student_details" />
+    <fragment
+        android:id="@+id/teachersListFragment"
+        android:name="com.example.studentsapp.ui.fragments.TeachersListFragment"
+        android:label="fragment_teachers_list"
+        tools:layout="@layout/fragment_teachers_list" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.studentsapp.ui.fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

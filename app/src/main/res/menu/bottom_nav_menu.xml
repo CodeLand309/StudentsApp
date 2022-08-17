@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:title="Student"-->
+<!--        android:id="@+id/studentDetailsFragment"-->
+<!--        app:showAsAction="ifRoom|always"-->
+<!--        android:icon=""/>-->
+    <item
+        android:title="Students"
+        android:id="@+id/studentsListFragment"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_baseline_list_alt_24"/>
+    <item
+        android:title="Item"
+        android:id="@+id/teachersListFragment"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_baseline_people_24"/>
+    <item
+        android:title="Item"
+        android:id="@+id/settingsFragment"
+        app:showAsAction="always|withText"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+</menu>

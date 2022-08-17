@@ -1,0 +1,40 @@
+<resources>
+
+    <string name="app_name">StudentsApp</string>
+
+    <!-- Login/Register Page Start-->
+    <string name="register_page_link">No Account?</string>
+    <string name="login_button">Login</string>
+    <string name="welcome_msg">Welcome to Students App</string>
+    <string name="edit_text_password">Enter Password</string>
+    <string name="edit_text_username">Enter Username</string>
+
+    <string name="registration">Registration</string>
+    <string name="edit_text_name">Enter Name</string>
+    <string name="edit_dob">Date Of Birth</string>
+    <string name="create_student_account_btn">Create Student Account</string>
+    <string name="request_teacher_account_btn">Request Teacher Account</string>
+    <string name="teacher_account_msg">You can request for teacher account. Once approved you would get the admin privileges.</string>
+    <string-array name="gender_spinner">
+        <item name="Select Gender">Select Gender</item>
+        <item name="Female">Female</item>
+        <item name="Male">Male</item>
+        <item name="Other">Other</item>
+    </string-array>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- Login/Register Page End-->
+
+</resources>
